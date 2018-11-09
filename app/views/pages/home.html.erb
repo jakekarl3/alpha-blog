@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Home Page</title>
-  <style>
-    h1 {
-      text-align: center;
-    }
-    
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
-    .row {
-      display: flex;
-    }
-
-    .column {
-      flex: : 50%;
-      padding: 10px;
-    }
-
-  </style>
-</head>
-<body>
-  <%= link_to 'About', about_path %>
+  <%= link_to 'AlphaBlog', articles_path %> | <%= link_to 'About', about_path %>
 
   <h1>The Wide World of Pokemon</h1>
 
-  <%= link_to image_tag'pokemon.jpg' %> 
-
-</body>
-</html>
+  <%= link_to image_tag'pokemon.jpg' %>
